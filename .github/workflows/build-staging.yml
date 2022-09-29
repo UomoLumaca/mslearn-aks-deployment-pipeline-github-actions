@@ -56,7 +56,7 @@ jobs:
         with:
           version: v3.3.1
       - name: Get AKS Credentials
-        uses: Azure/aks-set-context@v3
+        uses: Azure/aks-set-context@v1
         with:
           resource-group: mslearn-gh-pipelines-25002
           cluster-name: contoso-video
